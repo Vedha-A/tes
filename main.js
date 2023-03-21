@@ -16,7 +16,7 @@ function setup()
 	canvas.parent('canvas');
 	instializeInSetup(mario);
 	video = createCapture(VIDEO);
-	video.size(600, 300);
+	video.size(800, 400);
 	video.parent('game_console');
 
 	poseNet = ml5.poseNet(video, modelLoaded);
@@ -50,12 +50,11 @@ function draw()
 function gotPoses(results)
 {
 	if(results.length > 0)
-	{
-		
+
+	{		
+		console.log(results);
 		noseX = results[0].pose.nose.X;
-		console.log(noseX);
 		noseY = results[0].pose.nose.Y;
-		console.log(noseY);
 	}
 
 }
