@@ -1,53 +1,37 @@
 .heading
 {
-    background-color: azure;
-    height: 50px;
     width: 100%;
     text-align: left;
 }
-.heading button 
-{
-    float: right;
-    border: 2px solid white;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-       
-}
 .heading h3
 {
-    font-size: 23px;
-    font-family: cursive;
     display: inline;
 }
-.play_game
+.heading button
 {
-    font-size: 25px;
-    background-color:black;
-    border: 2px solid white;
-    font-family:cursive;
-    color: white;
+    float: right;
+    border: 1px solid white;
 }
-#copy_right_footer
+.big_image
 {
     width: 100%;
-    background-color: azure;
-    bottom: 0;
-    font-size: 23px;
-    font-family: cursive;
-    font-style: italic;
-    position: fixed;
 }
-.design
+#start, #status
 {
-    color: blue;
-    font-size: 23px;
+    font-size: 22px;
 }
-.modal-body
+h4
 {
-    background-color: aquamarine;
+    background-color: white;
+    line-height: 2;
+    margin: 0px;
 }
-canvas
+.modal-dialog
 {
-    
+    width: 90%;
+}
+.instruction_image
+{
+    display:inline-block;
+    width: 45%;
 }
