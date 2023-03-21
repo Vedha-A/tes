@@ -1,0 +1,53 @@
+.heading
+{
+    background-color: azure;
+    height: 50px;
+    width: 100%;
+    text-align: left;
+}
+.heading button 
+{
+    float: right;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+       
+}
+.heading h3
+{
+    font-size: 23px;
+    font-family: cursive;
+    display: inline;
+}
+.play_game
+{
+    font-size: 25px;
+    background-color:black;
+    border: 2px solid white;
+    font-family:cursive;
+    color: white;
+}
+#copy_right_footer
+{
+    width: 100%;
+    background-color: azure;
+    bottom: 0;
+    font-size: 23px;
+    font-family: cursive;
+    font-style: italic;
+    position: fixed;
+}
+.design
+{
+    color: blue;
+    font-size: 23px;
+}
+.modal-body
+{
+    background-color: aquamarine;
+}
+canvas
+{
+    
+}
