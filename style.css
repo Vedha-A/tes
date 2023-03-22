@@ -1,44 +1,56 @@
 .heading
 {
+    background-color: azure;
+    height: 50px;
     width: 100%;
     text-align: left;
 }
-.heading h3
-{
-    display: inline;
-}
-.heading button
+.heading button 
 {
     float: right;
-    border: 1px solid white;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+       
 }
-.big_image
+.heading h3
+{
+    font-size: 23px;
+    font-family: cursive;
+    display: inline;
+}
+.play_game
+{
+    font-size: 25px;
+    background-color:black;
+    border: 2px solid white;
+    font-family:cursive;
+    color: white;
+}
+#copy_right_footer
 {
     width: 100%;
+    background-color: azure;
+    bottom: 0;
+    font-size: 23px;
+    font-family: cursive;
+    font-style: italic;
+    position: fixed;
 }
-#start, #status
+.design
 {
-    font-size: 22px;
+    color: blue;
+    font-size: 23px;
 }
-h4
+.modal-body
 {
-    background-color: white;
-    line-height: 2;
-    margin: 0px;
+    background-color: aquamarine;
 }
-.modal-dialog
+canvas 
 {
-    width: 90%;
+    border:3px solid white;
+    border-radius: 20px;
+    box-shadow:  5px 5px 5px white;
 }
-.instruction_image
-{
-    display:inline-block;
-    width: 45%;
-}
-video
-{
-	background: url('game_console.png');
-	background-size: cover;
-    background-position: center;
-    padding: 25px;
-}
+
